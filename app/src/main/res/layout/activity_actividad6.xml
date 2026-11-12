@@ -7,4 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".Actividad6">
 
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/perf"
+        app:layout_ConstraintTop_toTopof="parent"
+        app:layout_ConstraintBottom_toBottomOf="parent"/>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

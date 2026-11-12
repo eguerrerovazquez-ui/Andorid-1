@@ -7,4 +7,80 @@
     android:layout_height="match_parent"
     tools:context=".Actividad4">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- FILA 1 -->
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="top|start"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="40dp"
+            android:background="#1B7B64" />
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="#4CAF50" />
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="#8BC34A" />
+
+        <!-- FILA 2 -->
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|start"
+            android:layout_marginStart="40dp"
+            android:background="#673AB7" />
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="#3F51B5" />
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="40dp"
+            android:background="#2196F3" />
+
+        <!-- FILA 3 -->
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="40dp"
+            android:layout_marginStart="40dp"
+            android:background="#E91E63" />
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:background="#FF5722" />
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="#FFCCBC" />
+
+    </FrameLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

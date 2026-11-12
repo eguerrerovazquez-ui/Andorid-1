@@ -1,4 +1,4 @@
-package com.example.entregable1 // (Asegúrate de que este sea tu paquete)
+package com.example.entregable1
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,9 +10,9 @@ import androidx.appcompat.app.AppCompatActivity
 class Actividad2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_actividad2) // Tu XML
+        setContentView(R.layout.activity_actividad2)
 
-        val btnViajar = findViewById<Button>(R.id.btnViajar) // Asegúrate de tener este botón en el XML
+        val btnViajar = findViewById<Button>(R.id.btnViajar)
 
         btnViajar.setOnClickListener {
 

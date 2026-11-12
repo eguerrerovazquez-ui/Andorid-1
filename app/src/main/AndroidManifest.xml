@@ -49,6 +49,18 @@
             android:name=".Segunda"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Bandera1"
+            android:exported="false" />
+        <activity
+            android:name=".Bandera2"
+            android:exported="false" />
+        <activity
+            android:name=".Bandera3"
+            android:exported="false" />
+        <activity
+            android:name=".Bandera4"
+            android:exported="false" />
     </application>
 
 </manifest>

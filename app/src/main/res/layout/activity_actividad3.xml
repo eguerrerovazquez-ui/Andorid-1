@@ -7,4 +7,64 @@
     android:layout_height="match_parent"
     tools:context=".Actividad3">
 
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Banderas"
+            android:textSize="70dp"
+            android:layout_marginBottom="70dp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Bandera 1"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginBottom="26dp"
+            android:textSize="40dp"
+            android:backgroundTint="@color/rojo"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Bandera 2"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginBottom="26dp"
+            android:textSize="40dp"
+            android:backgroundTint="@color/rojo"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Bandera 3"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginBottom="26dp"
+            android:textSize="40dp"
+            android:backgroundTint="@color/rojo"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Bandera 4"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginBottom="26dp"
+            android:textSize="40dp"
+            android:backgroundTint="@color/rojo"/>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
