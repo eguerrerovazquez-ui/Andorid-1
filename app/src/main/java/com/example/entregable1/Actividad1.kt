@@ -34,6 +34,7 @@ class Actividad1 : AppCompatActivity() {
 
             if(Patterns.WEB_URL.matcher(texto).matches()){
                 Toast.makeText(this,"Es VALIDA", Toast.LENGTH_SHORT).show()
+
             }else{
                 Toast.makeText(this,"NO VALIDA", Toast.LENGTH_SHORT).show()
                 url.error = "Introduce una url valida"

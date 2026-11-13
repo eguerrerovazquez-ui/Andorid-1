@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Entregable1</string>
+    <string name="descripcion">
+        Estudiante de Ingeniería Informática en la Universidad Autónoma de Madrid.
+        23 años.
+        Competencias en diferentes lenguajes de programación como Pythn, Java, Kotlin y C++.
+    </string>
 </resources>

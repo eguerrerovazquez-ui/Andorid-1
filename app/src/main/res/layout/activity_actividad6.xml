@@ -12,9 +12,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/perf"
-        app:layout_ConstraintTop_toTopof="parent"
-        app:layout_ConstraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imagen"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Jaden Díaz"
+        android:textSize="20dp"
+        android:layout_marginStart="12dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/descripcion"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
